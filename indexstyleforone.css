@@ -1,0 +1,31 @@
+#container{
+  wideth: 95%;
+  background-color: #e4ffd4;
+  margin:0 auto;
+}
+p{
+  color: #ff7373;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+  color: #336600;
+  font-family:  Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+
+h2{
+  color: #a23339;
+    font-family:  Georgia, "Times New Roman", serif;
+    font-size: 1.5em;
+}
+
+h4{
+color: #a23339;
+  font-family:  Georgia, "Times New Roman", serif;
+}
+
+.joke{
+font-weight: bold;
+
+}
