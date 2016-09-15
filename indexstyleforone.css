@@ -27,5 +27,31 @@ color: #a23339;
 
 .joke{
 font-weight: bold;
+}
 
+#nav li{
+  list-style-type: none;
+  float: left;
+  margin:0;
+  padding:0;
+  width: 20%;
+}
+
+#nav a:link, a:visited {
+    display: block;
+    color: #fff;
+    background-color: #98bf21;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active{
+  background-color: #7a991a;
+}
+
+img {
+  border-style: none;
 }
