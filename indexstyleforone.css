@@ -1,33 +1,40 @@
 #container{
   width: 95%;
-  background-color: #e4ffd4;
+  background-color: #FFF1D4;
   margin:0 auto;
 }
+
 p{
-  color: #ff7373;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #486AB7;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 h1{
-  color: #336600;
-  font-family:  Georgia, "Times New Roman", serif;
+  color: #486AB7;
+  font-family: 'Bitter', serif;
   text-align: center;
   padding-top: 5px;
+  background-color: #FFEE9E;
 }
 
 h2{
-  color: #a23339;
-    font-family:  Georgia, "Times New Roman", serif;
+  color: #8CA5DD;
+    font-family: 'Bitter', serif;
     font-size: 1.5em;
+    text-align: center;
 }
 
 h4{
 color: #a23339;
   font-family:  Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
 .joke{
 font-weight: bold;
+text-align: center;
+font-family: 'Roboto', sans-serif;
 }
 
 #nav li{
@@ -42,23 +49,21 @@ font-weight: bold;
 #nav a:link, a:visited {
     display: block;
     color: #fff;
-    background-color: #98bf21;
+    background-color: #FFAF6B;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 
 #nav a:hover, a:active{
-  background-color: #7a991a;
+  background-color: #FFCB9E;
 }
 
 img {
   border-style: none;
-}
-
-#links a:link, a:visited {
-  font-family: Helvetica, Arial, sans-serif;
-  text-decoration: none;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
 }
