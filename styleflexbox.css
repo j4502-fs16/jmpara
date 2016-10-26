@@ -70,9 +70,9 @@ img{
   }
 
 
-@media (min-width: 800px){
+/*@media (min-width: 800px){
 
- /* .paragraph{
+  .paragraph{
     flex:1 auto;
   }
 
@@ -83,7 +83,7 @@ img{
 
   .footer{
     flex:1 auto;
-  }*/
+  }
 .paragraph-1{
   order:1;
 }
@@ -109,4 +109,4 @@ img{
    height: 200px;
    margin-right: 10px;
 }
-}
+}*/
