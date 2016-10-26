@@ -72,13 +72,9 @@ img{
 
 @media (min-width:800px){
 
-  body{
-    color:red;
-  }
-
  .wrapper{
     display: flex;
-    flex-flow:row nowrap;
+    flex-flow:row wrap;
   }
   .paragraph{
     flex:1 auto;
@@ -89,9 +85,6 @@ img{
 
   }
 
-  .footer{
-    flex:1 auto;
-  }
 .paragraph-1{
   order:1;
 }
@@ -103,17 +96,20 @@ img{
   order:3
 }
 
-.footer{
-  order:4
-}
 
   .main{
   display: flex;
   flex-flow: row;
 }
 
+
+.footer{
+  order:4
+}
+
+
 img{
-   width:50%;
+   width:60%;
    height: 200px;
    margin-right: 10px;
 }
