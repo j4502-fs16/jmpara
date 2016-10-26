@@ -53,7 +53,7 @@
 
 .wrapper{
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
 }
@@ -70,8 +70,12 @@ img{
   }
 
 
-/*@media (min-width: 800px){
+@media (min-width: 800px){
 
+  .wrapper{
+    display: flex;
+    flex-flow:row nowrap;
+  }
   .paragraph{
     flex:1 auto;
   }
