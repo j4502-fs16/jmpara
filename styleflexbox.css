@@ -71,11 +71,8 @@ img{
 
 
 @media (min-width: 800px){
-.main{
-  display: flex;
-  flex-flow: row;
-}
-  .paragraph{
+
+ /* .paragraph{
     flex:1 auto;
   }
 
@@ -86,7 +83,7 @@ img{
 
   .footer{
     flex:1 auto;
-  }
+  }*/
 .paragraph-1{
   order:1;
 }
@@ -102,6 +99,10 @@ img{
   order:4
 }
 
+  .main{
+  display: flex;
+  flex-flow: row;
+}
 
 img{
    width:50%;
