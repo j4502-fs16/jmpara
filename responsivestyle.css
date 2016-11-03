@@ -34,7 +34,7 @@ h1{
 .nav li{
   border-top:1px solid black;
   border-bottom:1px solid black;
-  background:#lightgreen;
+  background:gold;
 }
 .nav a{
   text-decoration: none;
