@@ -1,0 +1,115 @@
+body{
+  font-size:16px;
+  margin:0;
+  padding:0;
+}
+
+.header{
+  background:yellow;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+
+h1{
+  font-size:3em;
+  font-weight:bold;
+  color:green;
+  padding:10px;
+  text-align:center;
+}
+
+.nav{
+  list-style-type: none;
+  display: block;
+  font-size:1.5em;
+  line-height:2em;
+  padding:0;
+  text-align:center;
+  display: flex;
+  flex-flow:column wrap;
+}
+
+.nav li{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  background:#lightgreen;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+
+aside{
+  background: grey;
+}
+
+h2{
+  background: darkgreen;
+  color:white;
+}
+
+h3{
+  background:white;
+  color:darkblue;
+}
+
+aside h2{
+  background:gray;
+  color:white;
+}
+
+img{
+  width:100%;
+  border:none;
+}
+
+@media all and (min-width:600px){
+.header{
+  display:flex;
+  flex-flow:row;
+}
+
+header{
+  flex:1 auto;
+  justify-content: flex-start;
+}
+
+.nav{
+  flex-flow:row;
+}
+
+.nav li{
+  border:none;
+  background:orange;
+  margin:5px;
+  padding:5px;
+}
+
+.nav a:hover{
+  background:white;
+}
+
+.wrapper{
+  display:flex;
+  flex-flow:row;
+}
+
+.story{
+  display: flex;
+  flex-flow:row;
+}
+
+
+
+.summary{
+  flex: 1 auto;
+}
+
+aside{
+  flex:1 auto;
+  padding: 10px;
+}
+
+}/*first media end*/
