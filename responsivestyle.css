@@ -98,6 +98,8 @@ header{
 
 .story{
   flex: 1 33%;
+
+  margin: 5px;
 }
 
 /*
@@ -108,6 +110,7 @@ header{
 aside{
   flex:1 auto;
   padding: 10px;
+  text-align: center;
 }
 
 }/*first media end*/
@@ -123,4 +126,14 @@ aside{
   background-color:orange;
 }
 
+}
+
+@media all and (max-width: 799px){
+  img{
+    display: none;
+  }
+
+  .story3{
+    display:none;
+  }
 }
