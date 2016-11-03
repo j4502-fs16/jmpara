@@ -91,24 +91,36 @@ header{
   background:white;
 }
 
-.wrapper{
+.main{
   display:flex;
-  flex-flow:row;
+  flex-flow:row nowrap;
 }
 
 .story{
-  display: flex;
-  flex-flow:row;
+  flex: 1 33%;
 }
 
-
+/*
 .summary{
   flex: 1 auto;
 }
-
+*/
 aside{
   flex:1 auto;
   padding: 10px;
 }
 
 }/*first media end*/
+
+@media all and (min-width:800px){
+  .header{
+    display: flex;
+    flex-flow:column;
+  }
+
+.nav{
+  justify-content: space-around;
+  background-color:orange;
+}
+
+}
