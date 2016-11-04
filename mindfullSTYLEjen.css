@@ -15,8 +15,10 @@ header{
   margin:0;
   padding:10px;
 }
+a{
+  text-decoration: none;
+}
 
- 
 h1{
   font-size:2em;
   color:white;
@@ -29,7 +31,7 @@ h1{
 .nav{
   list-style-type: none;
   display: block;
-  font-size:2em;
+  font-size:.9em;
   line-height:2em;
   padding:0;
   text-align:center;
@@ -62,6 +64,10 @@ h2{
   margin-left: 10px;
 }
 
+img{
+  display: none;
+}
+
 /*ABOUT PAGE CSS BASIC*/
 
 .wrapperabout h2{
@@ -89,7 +95,7 @@ h2{
 
   }
 
-}
+
 
 @media all and (min-width:480px){
 
@@ -108,17 +114,20 @@ h2{
 .nav li{
   border: none;
   padding-top: 10px;
+  font-size: 1.5em;
 
 }
 
-.nav a:hover a:visited{
+.nav a:hover {
   background:#6c648b;
   color: white;
   padding: 15px;
+
+}
+
+img{
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
-  margin: 20px;
 
 }
 
