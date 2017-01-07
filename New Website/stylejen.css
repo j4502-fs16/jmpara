@@ -1,0 +1,60 @@
+
+h2{
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+img{
+  width: 70%;
+}
+
+header{
+  padding: 1em;
+}
+
+body{
+  margin:0;
+  padding:1em;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li a{
+  display: block;
+  width:20px;
+}
+
+.mainnav li{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+
+}
+
+.mainnav{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+
+}
+
+.mainnav li a:hover{
+  background: #FEDC3D;
+  text-decoration: underline;
+}
+.wrapper{
+  text-align: center;
+}
