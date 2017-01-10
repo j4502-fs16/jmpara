@@ -9,11 +9,24 @@ header img{
   width: 100%;
 } */
 
+body{
+  background-image:url("Jen Background 2.png");
+  background-repeat: no-repeat;
+}
+
+
+
 h1{
-  font-family: 'Merriwether', serif;
+  font-family: 'Times New Roman', serif;
   margin-left: 2em;
   font-size: 3em;
   padding-top: 1em;
+  font-weight: 300;
+
+}
+sup{
+
+  font-size: .5em;
 }
 
 
@@ -64,13 +77,29 @@ a{
 
 .social {
   display: flex;
+  flex-direction: row-reverse;
+
+
 }
 
 .social img{
-  width: 4em;
-  height: 4em;
+  width: 2em;
+  height: 2em;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.social img:hover{
+  width: 2.5em;
+  height: 2.5em;
+}
+
+footer h4{
+  font-family: 'Raleway', sans-serif;
+
 }
 
 footer{
-  border-top: 2px solid black;
+  padding-top: 2em;
+  padding-bottom: 2px;
 }
