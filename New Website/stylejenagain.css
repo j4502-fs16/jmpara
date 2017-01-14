@@ -10,35 +10,18 @@ header img{
 } */
 
 body{
-  background: #E9e7da;
+  background-image:url("Jen Background 3.png");
   background-repeat: no-repeat;
-  margin:0 auto;
 }
 
-header{
-  background: #cf6766;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  width: 100%;
-}
 
-header a{
-  text-decoration: none;
-  color: white;
-}
-
-header a:hover{
-  text-decoration: underline;
-}
 
 h1{
   font-family: 'Raleway', sans-serif;
-  margin-left: 1em;
-  font-size: 2em;
-
+  margin-left: 2em;
+  font-size: 3em;
+  padding-top: 2em;
   font-weight: 300;
-  color: white;
-
 
 }
 sup{
@@ -48,7 +31,6 @@ sup{
 
 p{
   font-family: "PT Serif", serif;
-  color: #373737;
 }
 
 a{
@@ -88,7 +70,6 @@ a{
   font-size: 2em;
   color: #373737;
   display: block;
-
 
   text-align: left;
 
@@ -137,50 +118,7 @@ footer h4{
 
 }
 
-
-
 footer{
   padding-top: 2px;
   padding-bottom: 0px;
-}
-
-@media all and (min-width: 500px){
-
-  .homenav{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    width: 100%;
-  }
-
-.homenav li{
-margin-left: 4em;
-
-}
-@media all and (min-width: 600px){
-
-
-
-.homenav{
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  width: 100%;
-
-
-}
-
-
-}
-
-@media all and (min-width:800px) {
-
-body{
-  width: 800px
-
-}
-
-
 }
