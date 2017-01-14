@@ -37,6 +37,20 @@ a{
   text-decoration: none;
 }
 
+.about{
+  margin-left: 6em;
+}
+
+.about a{
+  color: #9a4152;
+  text-decoration: underline;
+}
+
+.about a:hover{
+  font-size: 1.1em;
+
+}
+
 .wrapper{
   margin: 2px;
   padding:1px;
@@ -78,17 +92,14 @@ a{
 
 }
 
-.about a{
-  text-decoration: none;
-  color: black;
-}
+
 
 .social {
   display: flex;
   flex-direction: row-reverse;
 
-
 }
+
 
 .social img{
   width: 2em;
@@ -108,6 +119,6 @@ footer h4{
 }
 
 footer{
-  padding-top: 2em;
-  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 0px;
 }
