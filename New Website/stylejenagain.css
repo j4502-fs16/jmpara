@@ -10,18 +10,18 @@ header img{
 } */
 
 body{
-  background: #302D32
+  background-image:url("Jen Background 3.png");
+  background-repeat: no-repeat;
 }
 
 
 
 h1{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Times New Roman', serif;
   margin-left: 2em;
   font-size: 3em;
   padding-top: 2em;
   font-weight: 300;
-  color: #f4f4f4;
 
 }
 sup{
@@ -32,7 +32,6 @@ sup{
 
 a{
   text-decoration: none;
-  color: #f4f4f4;
 }
 
 .wrapper{
@@ -51,8 +50,7 @@ a{
 
 .homenav li{
   font-family: 'Raleway', sans-serif;
-  color: #f4f4f4;
-  font-size: 2em;
+  font-size: 3em;
   color: #373737;
   display: block;
 
@@ -63,7 +61,7 @@ a{
 
 .homenav li a{
 
-  color: #f4f4f4;
+  color: #373737;
 
 }
 
@@ -73,7 +71,7 @@ a{
   font-weight: bold;
   padding-bottom: 4px;
   padding-left: 4px;
-  box-shadow: 10px 10px 5px #444246;
+  box-shadow: 10px 10px 5px grey;
 
 }
 
@@ -102,7 +100,6 @@ footer h4{
 }
 
 footer{
-  padding-top: 1px;
+  padding-top: 2em;
   padding-bottom: 2px;
-  background-color: #f4f4f4;
 }
