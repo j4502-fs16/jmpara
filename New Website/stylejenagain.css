@@ -17,7 +17,7 @@ body{
 
 
 h1{
-  font-family: 'Times New Roman', serif;
+  font-family: 'Raleway', sans-serif;
   margin-left: 2em;
   font-size: 3em;
   padding-top: 2em;
@@ -29,6 +29,9 @@ sup{
   font-size: .5em;
 }
 
+p{
+  font-family: "PT Serif", serif;
+}
 
 a{
   text-decoration: none;
@@ -50,7 +53,7 @@ a{
 
 .homenav li{
   font-family: 'Raleway', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   color: #373737;
   display: block;
 
@@ -73,6 +76,11 @@ a{
   padding-left: 4px;
   box-shadow: 10px 10px 5px grey;
 
+}
+
+.about a{
+  text-decoration: none;
+  color: black;
 }
 
 .social {
