@@ -11,6 +11,7 @@ header img{
 
 body{
   background: #f4f4f4;
+  margin: 0 auto;
 }
 
 
@@ -19,14 +20,17 @@ h1{
   font-family: 'Raleway', sans-serif;
   margin-left: 2em;
   font-size: 3em;
-  padding-top: 2em;
+
   font-weight: 300;
+  color: #f4f4f4;
 
 }
 sup{
 
   font-size: .5em;
 }
+
+
 
 p{
   font-family: "PT Serif", serif;
@@ -36,14 +40,22 @@ a{
   text-decoration: none;
 }
 
+header{
+  background: black;
+  padding-top: 2em;
+  padding-bottom: 1em;
+
+}
+
 header a{
-  color: #373737;
+  color: #f4f4f4;
+
 
 }
 
 header a:hover{
   text-decoration: underline;
-  color: #9a4152;
+  color: #fee677;
 }
 
 .about{
