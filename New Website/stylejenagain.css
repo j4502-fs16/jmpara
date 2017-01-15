@@ -10,8 +10,7 @@ header img{
 } */
 
 body{
-  background-image:url("Jen Background 3.png");
-  background-repeat: no-repeat;
+  background: #f4f4f4;
 }
 
 
@@ -35,6 +34,16 @@ p{
 
 a{
   text-decoration: none;
+}
+
+header a{
+  color: #373737;
+
+}
+
+header a:hover{
+  text-decoration: underline;
+  color: #9a4152;
 }
 
 .about{
