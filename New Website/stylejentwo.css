@@ -7,10 +7,37 @@ body{
 
 h4{
   font-family: 'Raleway', sans-serif;
-  font-size: .9em;
+
   font-weight: 100;
 }
 
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+.paragraph{
+  display: block;
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+
+}
+
+.paragraphabout{
+  display: block;
+  text-align: left;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+    font-weight: 300;
+}
 
 /*
 h1{
@@ -74,7 +101,7 @@ h1 {
 
 sup{
 
-  font-size: .5em;
+  font-size: .7em;
 }
 
 h2{
@@ -104,12 +131,19 @@ h1:after {
 .container {
   overflow: hidden;
   text-align: center;
+
+}
+
+.container a:hover{
+  text-decoration: underline;
 }
 
 .social {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  padding-top: 2em;
+
 
 }
 .social img{
@@ -120,26 +154,146 @@ h1:after {
 }
 
 .social img:hover{
-  width: 2em;
-  height: 2em;
+  width: 2.3em;
+  height: 2.3em;
 }
+
+
+.img-square img{
+  width: 260px;
+  height: 260px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+/*
+.img-circle h2{
+display: none;
+}
+
+.img-circle a:hover{
+  display:block;
+}
+
+
 
 
 .img-circle {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   border-radius: 50%;
   margin: auto;
   display: block;
 }
 
+.img-circle img:hover{
+   filter: opacity(.2);
+   width: 150px;
+   height: 150px;
+
+}
+
+
+
 .img-circle img {
   width: 100%;
   height: auto;
+  display:absolute;
+}
+
+.img-square img {
+  width: 50%;
+  height: 50%;
+  height: auto;
+  display:block;
+}
+ */
+
+/*
+#module{
+  background-image: url(Jenbw.jpg);
+  background-size: 100%;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+
 
 }
+#module {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+#module img{
+  width: 100%;
+  height: auto;
+  display:absolute;
+}
+
+#module .txt{
+  position:relative;
+  visibility: hidden;
+}
+
+#module:hover .txt{
+  visibility: visible;
+} */
+
+.imgWrap {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.imgWrap img{
+  width: 100%;
+  height: auto;
+  display:absolute;
+
+}
+
+.imgDescription{
+  position: absolute;
+  top: 50;
+  bottom: 0;
+  left: 0;
+  right: 0;
+text-decoration: underline;
+ color: #fff;
+ visibility: hidden;
+
+
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+
+}
+
+.imgWrap:hover {
+  width: 155px;
+  height: 155px;
+}
+
+.
+
 
 
 footer{
@@ -154,6 +308,10 @@ footer{
 .about a:hover{
   font-size: 1.1em;
 
+}
+
+.about{
+  margin-left:2.5em;
 }
 
 a{
@@ -178,8 +336,14 @@ color: black;
 }
 
 
+
 .bubble a{
   color: white;
+}
+
+.bubble a:hover{
+  text-decoration: underline;
+  font-size: 1.1em;
 }
 
 .wrapper{
