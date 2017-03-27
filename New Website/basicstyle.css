@@ -1,0 +1,355 @@
+
+
+body{
+
+  margin: 0 auto;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 100;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+.paragraph{
+  display: block;
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+
+}
+
+.paragraphabout{
+  display: block;
+  text-align: left;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+    font-weight: 300;
+}
+
+/*
+h1{
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 2em;
+display: block;
+text-align: center;
+  font-weight: 300;
+  color: black;
+  position: relative;
+
+} */
+
+/*
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+h1 span {
+  background: #fff;
+  padding: 0 2px;
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+h1:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+  color: black;
+}
+h1:before {
+  left: 0;
+}
+
+
+
+
+*/
+
+h1 {
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+
+}
+
+sup{
+
+  font-size: .7em;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  display:block;
+  text-align: center;
+}
+
+h1:before,
+h1:after {
+  background: black;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 400%;
+  c
+}
+h1:before {
+  right: 100%;
+}
+h1:after {
+  left: 100%;
+}
+
+.container {
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.container a:hover{
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-top: 2em;
+
+
+}
+.social img{
+  width: 2em;
+  height: 2em;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.social img:hover{
+  width: 2.3em;
+  height: 2.3em;
+}
+
+
+.img-square img{
+  width: 260px;
+  height: 260px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+/*
+.img-circle h2{
+display: none;
+}
+
+.img-circle a:hover{
+  display:block;
+}
+
+
+
+
+.img-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.img-circle img:hover{
+   filter: opacity(.2);
+   width: 150px;
+   height: 150px;
+
+}
+
+
+
+.img-circle img {
+  width: 100%;
+  height: auto;
+  display:absolute;
+}
+
+.img-square img {
+  width: 50%;
+  height: 50%;
+  height: auto;
+  display:block;
+}
+ */
+
+/*
+#module{
+  background-image: url(Jenbw.jpg);
+  background-size: 100%;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+
+
+}
+#module {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+#module img{
+  width: 100%;
+  height: auto;
+  display:absolute;
+}
+
+#module .txt{
+  position:relative;
+  visibility: hidden;
+}
+
+#module:hover .txt{
+  visibility: visible;
+} */
+
+.imgWrap {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.imgWrap img{
+  width: 100%;
+  height: auto;
+  display:absolute;
+
+}
+
+.imgDescription{
+  position: absolute;
+  top: 50;
+  bottom: 0;
+  left: 0;
+  right: 0;
+text-decoration: underline;
+ color: #fff;
+ visibility: hidden;
+
+
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+
+}
+
+.imgWrap:hover {
+  width: 155px;
+  height: 155px;
+}
+
+.
+
+
+
+footer{
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+.about a{
+  color: #9a4152;
+  text-decoration: underline;
+}
+
+.about a:hover{
+  font-size: 1.1em;
+
+}
+
+.about{
+  margin-left:2.5em;
+}
+
+a{
+  text-decoration: none;
+color: black;
+}
+
+.bubble{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: .9em;
+  color: #fff;
+  background: #000;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+
+
+
+.bubble a{
+  color: white;
+}
+
+.bubble a:hover{
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
