@@ -18,10 +18,20 @@ p{
 
 .paragraph{
   display: block;
-  text-align: center;
+  text-align: left;
   margin-left: 3em;
   margin-right: 3em;
 
+}
+
+.paragraph a{
+
+  color: #a34775;
+}
+
+.paragraph a:hover{
+
+text-decoration: underline;
 }
 
 .paragraphabout{
@@ -37,6 +47,44 @@ h3{
   display: block;
   text-align: center;
     font-weight: 300;
+}
+
+.reporting a{
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+.reporting li{
+  padding-bottom: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: .9em;
+  color: #a34775;
+}
+
+.videocontainer{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 600px;
+
+}
+
+.videowrapper{
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+
+
+}
+
+.videowrapper iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 
 /*
@@ -89,6 +137,9 @@ h1:before {
 
 */
 
+
+
+
 h1 {
   display: inline-block;
   padding: 0 5px;
@@ -99,6 +150,8 @@ h1 {
 
 }
 
+
+
 sup{
 
   font-size: .7em;
@@ -107,7 +160,8 @@ sup{
 h2{
   font-family: 'Raleway', sans-serif;
   display:block;
-  text-align: center;
+  text-align: left;
+  border-bottom: 1px solid black;
 }
 
 h1:before,
