@@ -87,6 +87,13 @@ h3{
   height:100%;
 }
 
+footer{
+  padding-top: 2em;
+  padding-bottom: 1em;
+  display: block;
+  text-align: right;
+}
+
 /*
 h1{
   font-family: 'Raleway', sans-serif;
@@ -309,8 +316,8 @@ display: none;
 
 .imgWrap {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border-radius: 50%;
   margin: auto;
@@ -353,6 +360,11 @@ text-decoration: underline;
 footer{
   border-top: 1px solid black;
   margin-top: 5px;
+
+}
+
+footer p{
+  font-size: .8em;
 }
 .about a{
   color: #9a4152;
@@ -406,4 +418,12 @@ color: black;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+@media all and (min-width: 800px){
+body{
+  max-width: 800px;
+}
+
+
 }
